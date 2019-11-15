@@ -1,3 +1,5 @@
+package connect4;
+
 public class Column {
     private int numRows;
     private Counter[] rows;

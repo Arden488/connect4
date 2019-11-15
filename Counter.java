@@ -1,3 +1,5 @@
+package connect4;
+
 public class Counter {
     private Player player;
 

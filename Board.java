@@ -1,3 +1,5 @@
+package connect4;
+
 public class Board {
     private Column[] columns;
     private int lastCounterRow;
@@ -94,8 +96,10 @@ public class Board {
 
         Counter counterToCheck = columns[lastCounterCol].getCounter(lastCounterRow);
 
-        if (isAnyDiagonalLinesWin(counterToCheck) || isAnyDirectLinesWin(counterToCheck)) {
-            return true;
+        for (int i = 1; i <= (winCounterNum - 1); i++) {
+            if (isAnyDiagonalLinesWin(counterToCheck) || isAnyDirectLinesWin(counterToCheck)) {
+                return true;
+            }
         }
 
         return false;

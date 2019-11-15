@@ -1,3 +1,5 @@
+package connect4;
+
 import java.util.Random;
 
 /**
