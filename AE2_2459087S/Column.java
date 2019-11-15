@@ -1,4 +1,4 @@
-package connect4;
+package connect4.AE2_2459087S;
 
 /**
  * Column class

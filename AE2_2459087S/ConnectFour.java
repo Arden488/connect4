@@ -1,4 +1,4 @@
-package connect4;
+package connect4.AE2_2459087S;
 
 import java.util.Random;
 
@@ -26,8 +26,6 @@ public class ConnectFour {
         System.out.println("___________________\n");
 
         test5();
-
-        System.out.println("___________________\n");
     }
 
     /**
